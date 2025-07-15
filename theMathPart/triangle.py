@@ -7,18 +7,17 @@ r = float(input())
 j = float(r**2)
 k = float(h**2)
 
-class triArea():
+def triArea():
     triArea = (1/2) * b * h
     print(triArea)
 triArea()
 
-class triVol():
+def triVol():
     triVol = (1/3) * pi * r**2 * h
     print(triVol)
 triVol()
 
-class triSurfaceArea():
+def triSurfaceArea():
     triSArea = pi * r * (r + (sqrt(j*k)))
     print(triSArea)
 triSurfaceArea()
-
