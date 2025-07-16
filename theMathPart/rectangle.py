@@ -1,8 +1,9 @@
 from math import *
 
-x = float(input())
-y = float(input())
-r = float(input())
+x = float(input(f'Side 1 of rectangle: '))
+y = float(input(f'Side 2 of rectangle: '))
+r = x
+
 
 def sqrArea():
     sqrArea = x * y

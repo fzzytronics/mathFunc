@@ -1,6 +1,6 @@
 from math import *
 
-r = float(input())
+r = float(input(f'radius of circle: '))
 
 def area():
     area = pi * r**2

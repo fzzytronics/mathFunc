@@ -1,8 +1,9 @@
 from math import *
 
-b = float(input())
-h = float(input())
-r = float(input())
+b = float(input(f'base of triangle: '))
+h = float(input(f'height of triangle: '))
+r = b
+
 
 j = float(r**2)
 k = float(h**2)
